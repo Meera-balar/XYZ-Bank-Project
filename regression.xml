@@ -1,0 +1,13 @@
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/balar/IdeaProjects/practice-Bank">
+        <classes><class name="com.bank.testsuite.BankTest">
+            <methods><include name="bankManagerShouldAddCustomerSuccessfully"/>
+                <include name="bankManagerShouldOpenAccountSuccessfully"/>
+                <include name="customerShouldLoginAndLogoutSuccessfully"/>
+                <include name="customerShouldDepositMoneySuccessfully"/>
+                <include name="customerShouldWithdrawMoneySuccessfully"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
